@@ -31,6 +31,34 @@ Vyfotíme-li 2 balíčky s cukrem (tedy 4 fotky) a první balíček bude mít oz
 </p>
 
 
-# [EN] Cataloguing-Helper
+# [EN] Cataloguing collector’s activity of hygienically packaged sugar
 
-text
+##  Project results
+- utter elimination of monotonous and time-consuming work of employees in [Dobrovická muzea](https://en.dobrovickamuzea.cz/)
+- execution of work shortened from a few hours to a few tens of seconds
+
+## Work execution
+
+Employees have to take a photo of the front and of the back side. They always do so in this particular order. Each sugar package is identified by a number which is one bigger than the previous package. For this reason, the program only needs to know the 1st number of the sugar package. The last thing the program needs to know is where the sugar packages are located in a computer. If we do not give the program such information, it will not allow us to run it, and will specify exactly what the employee should enter.
+
+### Example
+Let's imagine we take a photo of 2 sugar packages (that is 4 photos). The first sugar package will be labeled 003447. There'll be a new folder created on desktop with the renamed photos, specifically:
+
+1. photo will now be called: **003447_přední strana** (translated to English: 003447_front side)
+2. photo will now be called: **003447_zadní strana** (translated to English: 003447_back side)
+3. photo will now be called: **003448_přední strana** (translated to English: 003448_front side)
+4. photo will now be called: **003448_zadní strana** (translated to English: 003448_back side)
+
+<p>
+   <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/slozka_s_fotkami.PNG"/>
+</p>
+
+<p>
+  <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/slozka_s_fotkami_prejmenovane.PNG"/>
+</p>
+
+## GUI
+
+<p align="center">
+   <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/okno.png"/>
+</p>
