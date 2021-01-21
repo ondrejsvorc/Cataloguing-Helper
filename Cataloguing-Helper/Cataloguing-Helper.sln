@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cataloguing-Helper", "Cataloguing-Helper\Cataloguing-Helper.csproj", "{2672D75E-3039-4DE5-9630-09A8F4EEDF0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2672D75E-3039-4DE5-9630-09A8F4EEDF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2672D75E-3039-4DE5-9630-09A8F4EEDF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2672D75E-3039-4DE5-9630-09A8F4EEDF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2672D75E-3039-4DE5-9630-09A8F4EEDF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0387686A-9A92-41DB-8AD9-E0183E1C0F08}
+	EndGlobalSection
+EndGlobal
