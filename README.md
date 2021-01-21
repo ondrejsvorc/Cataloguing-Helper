@@ -16,8 +16,11 @@ Vyfotíme-li 2 balíčky s cukrem (tedy 4 fotky) a první balíček bude mít oz
 3. fotka se nyní bude jmenovat: **003448_přední strana**
 4. fotka se nyní bude jmenovat: **003448_zadní strana**
 
-<p align="left">
+<p>
    <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/slozka_s_fotkami.PNG"/>
+</p>
+
+<p>
   <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/slozka_s_fotkami_prejmenovane.PNG"/>
 </p>
 
