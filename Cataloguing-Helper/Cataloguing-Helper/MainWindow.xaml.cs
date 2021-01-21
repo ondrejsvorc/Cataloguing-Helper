@@ -23,7 +23,7 @@ namespace CataloguingHelper
         {
             InitializeComponent();
         }
-
+        
         private void AllowOnlyNumbers(object sender, TextCompositionEventArgs e)
         {
             e.Handled = regex.IsMatch(e.Text);
@@ -40,7 +40,8 @@ namespace CataloguingHelper
             lbDone.Content = string.Empty;
 
             keepProcessing = true;
-
+            
+            // Input validation
             if (txtBoxNumber.Text == string.Empty && txtBoxDirPath.Text == string.Empty)
             {
                 MessageBox.Show("Musíte zadat číslo prvního cukru (např. 003447) a také vybrat složku s fotkami.");
@@ -70,7 +71,8 @@ namespace CataloguingHelper
                 string[] imagesToRename = Directory.GetFiles(txtBoxDirPath.Text);
 
                 Directory.CreateDirectory(newFolderName);
-
+                
+                // Determination of how big the number is
                 if (!(Convert.ToInt32(txtBoxNumber.Text[1].ToString()) > 0))
                 {
                     imageNumber = Convert.ToInt32(txtBoxNumber.Text.Substring(2));
@@ -87,23 +89,25 @@ namespace CataloguingHelper
                     imageNumber = Convert.ToInt32(txtBoxNumber.Text);
                     zeros = "";
                 }
-
+                
+                // imageIndex only acquieres three values: -1, 0, 1  
+                // (we never overwhelm our RAM)
                 foreach (string image in imagesToRename)
                 {
                     if (++imageIndex % 2 > 0)
                     {
-                        imageName = $"{zeros}{imageNumber}_přední strana.jpg";
+                        imageName = $"{zeros}{imageNumber}_přední strana.jpg";      // If a photo position, relative to other photos, is even-numbered
                         imageIndex = -1;
                     }
                     else
                     {
-                        imageName = $"{zeros}{imageNumber}_zadní strana.jpg";
+                        imageName = $"{zeros}{imageNumber}_zadní strana.jpg";       // If a photo position, relative to other photos, is odd-numbered
                         bothRenamed = true;
                     }
 
                     File.Copy(image, Path.Combine(newFolderName, imageName));
 
-                    if (bothRenamed)
+                    if (bothRenamed)                                                // If both photos are renamed, increment a photo number
                     {
                         imageNumber++;
                         bothRenamed = false;
