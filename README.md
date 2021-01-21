@@ -39,7 +39,7 @@ Vyfotíme-li 2 balíčky s cukrem (tedy 4 fotky) a první balíček bude mít oz
 
 ## Work execution
 
-Employees have to take a photo of the front and of the back side. They always do so in this particular order. Each sugar package is identified by a number which is one bigger than the previous package. For this reason, the program only needs to know the 1st number of the sugar package. The last thing the program needs to know is where the sugar packages are located in a computer. If we do not give the program such information, it will not allow us to run it, and will specify exactly what the employee should enter.
+Employees have to take a photo of the front and of the back side of a sugar package. They always do so in this particular order. Each sugar package is identified by a number which is one bigger than the previous package. For this reason, the program only needs to know the 1st number of the sugar package. The last thing the program needs to know is where the sugar packages are located in a computer. If we do not give the program such information, it will not allow us to run it, and will specify exactly what the employee should enter.
 
 ### Example
 Let's imagine we take a photo of 2 sugar packages (that is 4 photos). The first sugar package will be labeled 003447. There'll be a new folder created on desktop with the renamed photos, specifically:
