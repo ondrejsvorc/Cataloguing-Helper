@@ -24,7 +24,7 @@ Vyfotíme-li 2 balíčky s cukrem (tedy 4 fotky) a první balíček bude mít oz
   <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/slozka_s_fotkami_prejmenovane.PNG"/>
 </p>
 
-## GUI
+## Grafické rozhraní
 
 <p align="center">
    <img src="https://github.com/ondrejsvorc/Cataloguing-Helper/blob/main/ReadMe-Images/okno.png"/>
