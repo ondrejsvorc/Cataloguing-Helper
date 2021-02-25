@@ -11,10 +11,10 @@ namespace CataloguingHelper
 {
     public partial class MainWindow : Window
     {
-        FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
-        Regex regex = new Regex("[^0-9]+");
+        FolderBrowserDialog folderBrowserDialog;
+        Regex regex;
 
-        int imageIndex = 0;
+        int imageIndex;
 
         bool bothRenamed;
         bool keepProcessing;
@@ -22,6 +22,10 @@ namespace CataloguingHelper
         public MainWindow()
         {
             InitializeComponent();
+            
+            folderBrowserDialog = new FolderBrowserDialog();
+            regex = new Regex("[^0-9]+");
+            imageIndex = 0;
         }
         
         private void AllowOnlyNumbers(object sender, TextCompositionEventArgs e)
