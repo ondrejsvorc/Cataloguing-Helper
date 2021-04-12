@@ -13,3 +13,18 @@ C:\Users\Ondra\source\repos\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cata
 C:\Users\Ondra\source\repos\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.csproj.CoreCompileInputs.cache
 C:\Users\Ondra\source\repos\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.exe
 C:\Users\Ondra\source\repos\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.pdb
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\bin\Debug\Cataloguing-Helper.exe.config
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\bin\Debug\Cataloguing-Helper.exe
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\bin\Debug\Cataloguing-Helper.pdb
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.csprojAssemblyReference.cache
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\MainWindow.g.cs
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\App.g.cs
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper_MarkupCompile.cache
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper_MarkupCompile.lref
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\MainWindow.baml
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.g.resources
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing_Helper.Properties.Resources.resources
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.csproj.GenerateResource.cache
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.exe
+D:\GitHub Projects\Cataloguing-Helper\Cataloguing-Helper\Cataloguing-Helper\obj\Debug\Cataloguing-Helper.pdb

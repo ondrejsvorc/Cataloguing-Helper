@@ -51,7 +51,7 @@ namespace CataloguingHelper
                 MessageBox.Show("Musíte zadat číslo prvního cukru (např. 003447) a také vybrat složku s fotkami.");
                 keepProcessing = false;
             }
-            else if (txtBoxNumber.Text == string.Empty || txtBoxNumber.Text.Length != 6)
+            else if (txtBoxNumber.Text == string.Empty && (txtBoxNumber.Text.Length != 6 || txtBoxNumber.Text.Length != 4))
             {
                 MessageBox.Show("Musíte zadat číslo prvního cukru (např. 003447).");
                 keepProcessing = false;
@@ -75,9 +75,14 @@ namespace CataloguingHelper
                 string[] imagesToRename = Directory.GetFiles(txtBoxDirPath.Text);
 
                 Directory.CreateDirectory(newFolderName);
-                
+
                 // Determination of how big the number is
-                if (!(Convert.ToInt32(txtBoxNumber.Text[1].ToString()) > 0))
+                if (!(Convert.ToInt32(txtBoxNumber.Text[2].ToString()) > 0))
+                {
+                    imageNumber = Convert.ToInt32(txtBoxNumber.Text.Substring(2));
+                    zeros = "000";
+                }
+                else if (!(Convert.ToInt32(txtBoxNumber.Text[1].ToString()) > 0))
                 {
                     imageNumber = Convert.ToInt32(txtBoxNumber.Text.Substring(2));
                     zeros = "00";
