@@ -67,6 +67,8 @@ namespace CataloguingHelper
                 string imageName;
                 string zeros = "";
 
+                bool whatToCheck;
+
                 int imageNumber = 0;
 
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
@@ -86,11 +88,13 @@ namespace CataloguingHelper
                 {
                     imageNumber = Convert.ToInt32(txtBoxNumber.Text.Substring(2));
                     zeros = "00";
+                    whatToCheck = imageNumber < 100;
                 }
                 else
                 {
                     imageNumber = Convert.ToInt32(txtBoxNumber.Text.Substring(1));
                     zeros = "0";
+                    whatToCheck = imageNumber < 100;
                 }
 
                 if (Convert.ToInt32(txtBoxNumber.Text[0].ToString()) > 0)
@@ -103,6 +107,16 @@ namespace CataloguingHelper
                 // (we never overwhelm our RAM)
                 foreach (string image in imagesToRename)
                 {
+                    int currentLength = (zeros + imageNumber).Length;
+
+                    if (currentLength != txtBoxNumber.Text.Length)
+                    {
+                        if (currentLength == txtBoxNumber.Text.Length + 1)
+                        {
+                            zeros = zeros.Substring(1);
+                        }
+                    }
+
                     if (++imageIndex % 2 > 0)
                     {
                         imageName = $"{zeros}{imageNumber}_přední strana.jpg";      // If a photo position, relative to other photos, is even-numbered
