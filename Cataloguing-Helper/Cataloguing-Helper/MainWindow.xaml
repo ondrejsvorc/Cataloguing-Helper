@@ -63,7 +63,7 @@
             Margin="0,1,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Center"
-            Content="Číslo prvního cukru:"
+            Content="První číslo:"
             FontSize="15" />
 
         <TextBox
@@ -122,7 +122,7 @@
             Height="30"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
-            FontSize="15" />
+            FontSize="14" />
 
         <Label
             Grid.Row="5"
