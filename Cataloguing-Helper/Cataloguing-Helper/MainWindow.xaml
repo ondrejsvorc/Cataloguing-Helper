@@ -75,7 +75,8 @@
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             FontSize="18"
-            PreviewTextInput="AllowOnlyNumbers" />
+            MaxLength="6"
+            PreviewTextInput="OnPreviewTextInput" />
 
         <Label
             Grid.Row="2"
@@ -103,14 +104,14 @@
             Grid.Row="2"
             Grid.Column="3"
             Height="20"
-            Click="OpenFileDialog" />
+            Click="OnOpenFolderClick" />
 
         <Button
             x:Name="btnRename"
             Grid.Row="4"
             Grid.Column="2"
             Width="100"
-            Click="RenameImages"
+            Click="OnRenameImagesClick"
             Content="Přejmenovat"
             FontSize="16"
             IsEnabled="True" />
