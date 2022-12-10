@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Dialogs\FolderDialogManager.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
     <Compile Include="Exceptions\InvalidDirectoryPathException.cs" />
     <Compile Include="Exceptions\InvalidSugarNumberAndDirectoryPathException.cs" />
@@ -71,7 +72,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Services\ImageService.cs" />
+    <Compile Include="Services\Image\IImageService.cs" />
+    <Compile Include="Services\Image\ImageService.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -109,5 +111,6 @@
   <ItemGroup>
     <Resource Include="logo-dobrovicka-muzea.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
